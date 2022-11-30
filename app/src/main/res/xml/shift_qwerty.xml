@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:keyHeight="50dp">
+    <Row>
+        <Key android:keyLabel="1" android:keyEdgeFlags="left" android:codes="49"/>
+        <Key android:keyLabel="2" android:codes="50"/>
+        <Key android:keyLabel="3" android:codes="51"/>
+        <Key android:keyLabel="4" android:codes="52"/>
+        <Key android:keyLabel="5" android:codes="53"/>
+        <Key android:keyLabel="6" android:codes="54"/>
+        <Key android:keyLabel="7" android:codes="55"/>
+        <Key android:keyLabel="8" android:codes="56"/>
+        <Key android:keyLabel="9" android:codes="57"/>
+        <Key android:keyLabel="0" android:keyEdgeFlags="right" android:codes="48"/>
+    </Row>
+    <Row>
+        <Key android:keyLabel="ګ" android:keyEdgeFlags="left" android:codes="1707"/>
+        <Key android:keyLabel="ڻ" android:codes="1723"/>
+        <Key android:keyLabel="ڠ" android:codes="1696"/>
+        <Key android:keyLabel="ڳ" android:codes="1715"/>
+        <Key android:keyLabel="ګ" android:codes="1707"/>
+        <Key android:keyLabel="ڶ" android:codes="1718"/>
+        <Key android:keyLabel="ڢ" android:codes="1698"/>
+        <Key android:keyLabel="ڡ" android:codes="1697"/>
+        <Key android:keyLabel="ڣ" android:codes="1699"/>
+        <Key android:keyLabel="ڮ" android:keyEdgeFlags="right" android:codes="1710"/>
+    </Row>
+    <Row>
+        <Key android:keyLabel="ڟ" android:keyEdgeFlags="left" android:horizontalGap="5%" android:codes="1695"/>
+        <Key android:keyLabel="ڱ" android:codes="1713"/>
+        <Key android:keyLabel="ڼ" android:codes="1724"/>
+        <Key android:keyLabel="ڬ" android:codes="1708"/>
+        <Key android:keyLabel="ڰ" android:codes="1712"/>
+        <Key android:keyLabel="ڹ" android:codes="1721"/>
+        <Key android:keyLabel="ڸ" android:codes="1720"/>
+        <Key android:keyLabel="گ" android:codes="1711"/>
+        <Key android:keyLabel="ں" android:keyEdgeFlags="right" android:codes="1722"/>
+    </Row>
+    <Row>
+        <Key android:keyIcon="@drawable/ic_keyboard" android:keyWidth="15%p" android:keyEdgeFlags="left" android:codes="-1"/>
+        <Key android:keyLabel="ڷ" android:codes="1719"/>
+        <Key android:keyLabel="ڧ" android:codes="1703"/>
+        <Key android:keyLabel="ڲ" android:codes="1714"/>
+        <Key android:keyLabel="ڦ" android:codes="1702"/>
+        <Key android:keyLabel="ڪ" android:codes="1706"/>
+        <Key android:keyLabel="ڴ" android:codes="1716"/>
+        <Key android:keyLabel="ڿ" android:codes="1727"/>
+        <Key android:keyIcon="@drawable/ic_backspace" android:keyWidth="15%p" android:isRepeatable="true" android:keyEdgeFlags="right" android:codes="-5"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyLabel="123/ful" android:keyWidth="20%p" android:keyEdgeFlags="left" android:codes="-2"/>
+        <Key android:keyIcon="@drawable/ic_e" android:codes="-44"/>
+        <Key android:keyLabel="፣" android:codes="4963"/>
+        <Key android:keyLabel="[_____]" android:isRepeatable="true" android:keyWidth="22%p" android:codes="32"/>
+        <Key android:keyIcon="@drawable/ic_language" android:codes="-6"/>
+        <Key android:keyLabel="።" android:codes="4962"/>
+        <Key android:keyIcon="@drawable/ic_return" android:keyWidth="18%p" android:codes="-4"/>
+    </Row>
+</Keyboard>
